@@ -1,0 +1,69 @@
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #009879;
+    color: rgb(29, 27, 27);
+    font-size: 30px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* .content {
+    text-align:center;
+} */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #009879;
+    color: rgb(29, 27, 27);
+    font-size: 20px;
+}
+
+.exchangeTable {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 80%;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.exchangeTable thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.exchangeTable th,
+.exchangeTable td {
+    padding: 12px 15px;
+}
+
+.exchangeTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.exchangeTable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.exchangeTable tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.moveImage
+{
+    max-width: 20px;
+    height: auto;
+}
